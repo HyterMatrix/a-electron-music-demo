@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Electron 音乐播放器</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+<div class="container mt-4">
+    <h1>我的播放器</h1>
+    <button type="button" id="add-music-button" class="btn btn-primary btn-lg btn-block mt-4">
+        添加歌曲到曲库
+    </button>
+    <div id="tracksList" class="mt-4">
+
+    </div>
+</div>
+<script>
+    require('./index.js');
+</script>
+</body>
+</html>

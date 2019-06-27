@@ -1,0 +1,2 @@
+# 这是一个electron的音乐播放器demo
+这是一个自学electron开发的一个demo项目
